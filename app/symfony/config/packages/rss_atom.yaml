@@ -1,5 +1,7 @@
 debril_rss_atom:
-    # switch to true if you need to set cache-control: private
+    date_formats:
+        - 'Y/M/d'
     private: false
-    # switch to true if you need to always send status 200
-    force_refresh: false
+    force_refresh: true
+    content_type_json: application/json
+    content_type_xml: application/xhtml+xml
